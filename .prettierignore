@@ -1,0 +1,19 @@
+.svelte-kit
+build
+db
+
+# generated
+src/lib/paraglide
+src/lib/ROUTES.ts
+project.inlang
+messages
+pnpm-lock.yaml
+package-lock.json
+
+# vendored agent tooling
+.agents
+.claude
+.cursor
+.github
+skills
+skills-lock.json

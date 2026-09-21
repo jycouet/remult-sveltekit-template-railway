@@ -1,0 +1,55 @@
+{
+	"name": "remult-sveltekit-template-railway",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"test:unit": "vitest",
+		"test": "npm run test:unit -- --run",
+		"start": "node scripts/prod-server.js",
+		"lint": "kitql-lint -d",
+		"format": "kitql-lint -d -f",
+		"db:up": "docker compose up -d",
+		"skills": "skills add remult/remult -y && skills add jycouet/firstly -y",
+		"skills:update": "skills update -p -y"
+	},
+	"devDependencies": {
+		"@inlang/paraglide-js": "^2.18.2",
+		"@kitql/eslint-config": "^0.9.0",
+		"@sveltejs/adapter-node": "^6.0.0-next.12",
+		"@sveltejs/kit": "^3.0.0-next.0",
+		"@sveltejs/vite-plugin-svelte": "^7.2.0",
+		"@tailwindcss/vite": "^4.3.0",
+		"@types/pg": "^8.15.5",
+		"eslint": "10.4.0",
+		"firstly": "^0.10.1",
+		"oxfmt": "0.51.0",
+		"oxlint": "1.66.0",
+		"oxlint-tsgolint": "0.23.0",
+		"prettier": "^3.8.3",
+		"railway": "^3.11.0",
+		"remult": "^3.3.18",
+		"svelte": "^5.56.7",
+		"svelte-check": "^4.6.0",
+		"tailwindcss": "^4.3.0",
+		"typescript": "^6.0.3",
+		"vite": "^8.1.5",
+		"vitest": "^4.1.8"
+	},
+	"imports": {
+		"#lib": "./src/lib/index.js",
+		"#lib/*": "./src/lib/*",
+		"#modules/*": "./src/modules/*"
+	},
+	"dependencies": {
+		"@polka/compression": "^1.0.0-next.25",
+		"pg": "^8.16.3",
+		"polka": "^1.0.0-next.28"
+	}
+}

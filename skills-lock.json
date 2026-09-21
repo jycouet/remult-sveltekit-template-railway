@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "firstly": {
+      "source": "jycouet/firstly",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/firstly/SKILL.md",
+      "computedHash": "27596e786656d1a8d0d112f9b4920e942f77f2396b84821523b7ec3ed1b3ab96"
+    },
+    "remult": {
+      "source": "remult/remult",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/remult/SKILL.md",
+      "computedHash": "7afcc50f4e1687f808f30aba68907ac5b4d4b797814639cc1881077b463aa950"
+    }
+  }
+}

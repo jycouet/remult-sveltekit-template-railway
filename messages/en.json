@@ -1,0 +1,19 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"hello_world": "Hello, {name} from en!",
+	"landing_cta": "Open the app",
+	"landing_docs": "Read the docs",
+	"landing_point_entities": "One class per table. The REST API, the types and the admin UI follow.",
+	"landing_point_live": "Live queries over SSE: every tab stays in sync, for free.",
+	"landing_point_rules": "Permissions live on the entity, so the server always has the last word.",
+	"nav_tasks": "Tasks",
+	"nav_internal": "Internal",
+	"nav_admin": "Admin UI",
+	"login_title": "Sign in",
+	"login_cta": "Sign in",
+	"sign_out": "Sign out",
+	"login_as": "Login as",
+	"back_to_real_user": "Back to {name}",
+	"impersonating": "You are seeing the app as {name}",
+	"switch_back": "switch back"
+}
